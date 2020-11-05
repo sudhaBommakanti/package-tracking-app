@@ -7,7 +7,7 @@ export default function Header() {
             <div className= "header">
             <form className="example">
                 <input type="text" placeholder="Search.." name="search2" />
-                <button type="submit"><i class="fa fa-search"></i></button>
+                <button type="submit"><i className="fa fa-search"></i></button>
             </form>
                
             </div>
