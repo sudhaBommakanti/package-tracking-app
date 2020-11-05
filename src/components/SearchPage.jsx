@@ -10,7 +10,7 @@ export default function SearchPage({ information }) {
     return (
         <div>
             <Header />
-            <h1>Search Page</h1>
+            <h1>Package Tracking -- Enter the id</h1>
             {cards}
         </div>
     );
