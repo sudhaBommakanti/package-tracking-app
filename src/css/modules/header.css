@@ -1,34 +1,14 @@
-form.example {
-    margin:auto;
-    max-width:300px;
-}
+  .header {
+      /* background-color:lightslategrey;  */
+      margin:0 auto;
+      overflow: hidden;
+      /* height:20px; */
+      padding: 30px 10px;
+    }
 
-form.example input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    background: #f1f1f1;
-  }
-  
-  form.example button {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: #2196F3;
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none;
-    cursor: pointer;
-  }
-  
-  form.example button:hover {
-    background: #0b7dda;
-  }
-  
-  form.example::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+    .header img {
+        width:80px;
+        height:80px;
+        float:left;
+        align-items:center;
+    }
